@@ -29,7 +29,7 @@ function my_mouseup(e) {
     mouseEvent = "mouseUP";
 }
 
-canvas.addEventListener("mousemove", mymousemove);
+canvas.addEventListener("mousemove", my_mousemove);
 
 function my_mousemove(e) {
     current_position_of_mouse_x = e.clientX - canvas.offsetLeft;
